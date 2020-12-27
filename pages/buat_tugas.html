@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block body %}
+<br>
+<div class="container">
+  <h3>Buat Pengingat Tugasmu!</h3>
+  <hr>
+  <br>
+<form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputMK">Mata Kuliah (MK)</label>
+        <input type="text" class="form-control" id="inputMK" placeholder="Mata Kuliah">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputDeskripsi">Deskripsi Tugas</label>
+    <textarea class="form-control" id="inputDeskripsi" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="deadlineTugas" class="col-2 col-form-label">Deadline</label>
+      <div class="col-10">
+        <input class="form-control" type="date" value="2020-01-01" id="deadlineTugas">
+      </div>
+
+      <label for="waktuPengingat" class="col-2 col-form-label">Waktu Pengingat</label>
+        <div class="col-10">
+          <input class="form-control" type="time" value="12:00:00" id="waktuPengingat">
+        </div>
+        <label for="pilihJenis">Jenis Tugas</label>
+        <select class="form-control" id="pilihJenis">
+          <option>Pilih</option>
+          <option>Ujian</option>
+          <option>Individu</option>
+          <option>Kelompok</option>
+        </select>
+        
+    </div>
+    <button style="float: right;" type="submit" class="btn btn-success">Simpan</button>
+    <br>
+    <br>
+  </form>
+</div>
+
+{% endblock %}

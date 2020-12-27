@@ -1,0 +1,42 @@
+.body {
+   position: relative;
+   margin-left: 40px;
+   margin-right: 40px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+nav {
+   padding-top: 0%;
+}
+
+
+a.nav-first {
+   padding-left: 20px;
+}
+
+.tentang-kami {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+footer {
+
+   height: 100px;
+   bottom: 0;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
