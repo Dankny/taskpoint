@@ -2,7 +2,7 @@
    position: relative;
    margin-left: 40px;
    margin-right: 40px;
-   padding-top: 50px;
+   padding-top: 20px;
    padding-bottom: 20px;
 }
 nav {
@@ -19,6 +19,19 @@ a.nav-first {
    margin-right: 10%;
 }
 
+.keluar {
+   margin-left: 5%;
+   margin-top: 10%;
+   margin-bottom: 15%;
+   color: dimgray;
+}
+
+table, th, td {
+   border: 1px solid black;
+   padding-block: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+ }
 footer {
 
    height: 100px;
