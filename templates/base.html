@@ -11,6 +11,15 @@
 
         <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
         <script src="{% static '/static/js/vendor/modernizr-2.6.2.js' %}"></script>
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+        <script>
+          window.OneSignal = window.OneSignal || [];
+          OneSignal.push(function() {
+            OneSignal.init({
+              appId: "42c77671-8ea6-4752-ae13-6f9de6f91cb5",
+            });
+          });
+        </script>
     </head>
 
     <body>
